@@ -5,6 +5,9 @@ define("CSS",  "public/css/");
 define("JS",  "public/js/");
 define("IMG", "public/images/"); 
 define("FONTS",  "public/fonts/");
+define("ICONS",  "public/icons/");
+define("ERROR",  "public/error/");
+
 
 
 /**

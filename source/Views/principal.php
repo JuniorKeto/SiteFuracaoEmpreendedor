@@ -1,4 +1,4 @@
-<?php $v->layout('templates/template') ?>
+<?php $v->layout('templates/template', ["title" => "My Home"]) ?>
 
 <div class="wrap">
 	<div class="container">

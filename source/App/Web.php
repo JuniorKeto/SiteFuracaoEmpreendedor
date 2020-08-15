@@ -15,6 +15,11 @@ class Web
 
     public function main()
     {
-        echo $this->view->render("index");
+        echo $this->view->render("principal");
+    }
+
+    public function error($d)
+    {
+        echo $this->view->render("error/error", ["errcode" => $d["errcode"]]);
     }
 }
