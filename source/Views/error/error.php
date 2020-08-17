@@ -9,6 +9,8 @@
 
 	<title><?= $errcode ?></title>
 
+	<link rel="stylesheet" href="<?= url(CSS . "animate.css") ?>">
+
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:700" rel="stylesheet">
 
@@ -17,6 +19,7 @@
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="<?= url(ERROR . "css/style.css") ?>" />
+
 
 </head>
 
@@ -30,17 +33,18 @@
 				<div></div>
 			</div>
 			<h1>oops!</h1>
-			<h2>Error <?= $errcode ?></h2>
+			<h2>Error <?= $errcode ?> - page not found</h2>
 			<a href="<?= url("") ?>">voltar</a>
+			<h3>Contact us</h3>
 			<div class="notfound-social">
 				<a href="#"><i class="fa fa-facebook"></i></a>
 				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-pinterest"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
 				<a href="#"><i class="fa fa-google-plus"></i></a>
 			</div>
-		</div>
+		</>
 	</div>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>

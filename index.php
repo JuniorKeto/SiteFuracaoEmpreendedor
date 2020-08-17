@@ -8,7 +8,13 @@ $r = new Router(ROOT);
 $r->namespace("Source\App");
 
 $r->group(null);
-$r->get("/", "Web:main");
+$r->get("/", "Web:home");
+$r->get("/about", "Web:about");
+$r->get("/practice_areas", "Web:practice_areas");
+$r->get("/cases", "Web:cases");
+$r->get("/attorneys", "Web:attorneys");
+$r->get("/blog", "Web:blog");
+$r->get("/contact", "Web:contact");
 
 /**
  * 

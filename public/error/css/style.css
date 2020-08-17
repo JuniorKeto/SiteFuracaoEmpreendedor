@@ -81,12 +81,23 @@ body {
   margin-top: 0;
   margin-bottom: 8px;
   color: #151515;
+
+  animation: rubberBand; 
+  animation-duration: 2s;
 }
 
 .notfound h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 26px;
   margin: 0;
+  font-weight: 700;
+  color: #151515;
+}
+
+.notfound h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+  margin-top: 10px;
   font-weight: 700;
   color: #151515;
 }
@@ -103,6 +114,15 @@ body {
   color: #fff;
   font-weight: 700;
   margin-top: 20px;
+  
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  background: #dedede;
+  color: var(--bg);
+  font-weight: bolder;
 }
 
 .notfound-social {

@@ -13,10 +13,42 @@ class Web
         $this->view = Engine::create(__DIR__ . "/../Views/", "php");
     }
 
-    public function main()
+    public function home()
     {
-        echo $this->view->render("principal");
+        echo $this->view->render("home");
     }
+
+    public function about()
+    {
+        echo $this->view->render("about");
+    }
+    
+    
+    public function practice_areas()
+    {
+        echo $this->view->render("practice-area");
+    }
+    
+    public function cases()
+    {
+        echo $this->view->render("cases");
+    }
+    
+    public function attorneys()
+    {
+        echo $this->view->render("attorney");
+    }
+    
+    public function blog()
+    {
+        echo $this->view->render("blog");
+    }
+
+    public function contact()
+    {
+        echo $this->view->render("contact");
+    }
+
 
     public function error($d)
     {
