@@ -1,5 +1,5 @@
 <?php
-define("ROOT", "http://localhost/SiteFuracaoEmpreendedor");
+define("ROOT", "http://192.168.2.105/SiteFuracaoEmpreendedor");
 
 define("CSS",  "public/css/");
 define("JS",  "public/js/");

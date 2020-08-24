@@ -8,7 +8,7 @@
 		<div class="text w-100">
 			<h1 class="mb-4">Don't Feel Helpless We Fight for Justice</h1>
 			<p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-			<p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a> <a href="#" class="btn btn-white py-3 px-4">Read more</a></p>
+			<p><a href="<?= url("contact") ?>" class="btn btn-primary py-3 px-4">Fale Conosco</a></p>
 		</div>
 		</div>
 		<a href="https://vimeo.com/45830194" class="img-video popup-vimeo d-flex align-items-center justify-content-center">

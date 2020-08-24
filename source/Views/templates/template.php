@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title><?= isset($title) ? $title : "Title"  ?></title>
+    <title>Furacão Empreendedor | <?= isset($title) ? $title : "Title"  ?></title>
     <meta charset="utf-8">
 
     <?= $v->insert("templates/extension/favicon") ?>

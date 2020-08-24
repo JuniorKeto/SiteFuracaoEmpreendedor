@@ -23,22 +23,6 @@ class Web
         echo $this->view->render("about");
     }
     
-    
-    public function practice_areas()
-    {
-        echo $this->view->render("practice-area");
-    }
-    
-    public function cases()
-    {
-        echo $this->view->render("cases");
-    }
-    
-    public function attorneys()
-    {
-        echo $this->view->render("attorney");
-    }
-    
     public function blog()
     {
         echo $this->view->render("blog");
@@ -48,7 +32,6 @@ class Web
     {
         echo $this->view->render("contact");
     }
-
 
     public function error($d)
     {
